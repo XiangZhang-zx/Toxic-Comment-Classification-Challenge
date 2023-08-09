@@ -15,6 +15,7 @@ The dataset was sourced from the [Kaggle Toxic Comment Classification Challenge]
 2. **Modeling:**
     - Trained multiple models including Logistic Regression, Naive Bayes, and Support Vector Machine (SVM) for each label.
     - Evaluated model performance using the Receiver Operating Characteristic (ROC) curve and Area Under the Curve (AUC) metrics.
+    - **Model Selection:** Chose the `LinearSVC` model as it demonstrated the highest AUC among the models tested, indicating its superior performance in distinguishing between the classes.
     - Visualized the ROC curves for each model and label to compare their performances.
 
 3. **Prediction:**
